@@ -6,7 +6,7 @@ from googletrans import Translator
 
 
 #client = LineClient()
-client = LineClient(id='berney924@gmail.com', passwd='berney924')
+client = LineClient(id='berney924@gmail.com', passwd='jsjs5366')
 #client = LineClient(authToken='AUTH TOKEN')
 client.log("Auth Token : " + str(client.authToken))
 
