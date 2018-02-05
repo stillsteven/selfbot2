@@ -167,7 +167,7 @@ while True:
                                     client.sendText(receiver, str(e))
                             elif text.lower() == 'speed':
                                 start = time.time()
-                                client.sendText(receiver, "speed")
+                                client.sendText(receiver, "速度回報")
                                 elapsed_time = time.time() - start
                                 client.sendText(receiver, "%sdetik" % (elapsed_time))
                             elif 'spic' in text.lower():
@@ -364,7 +364,7 @@ while True:
                                     client.sendText(receiver, str(e))
                             elif text.lower() == 'speed':
                                 start = time.time()
-                                client.sendText(receiver, "speed")
+                                client.sendText(receiver, "速度回報")
                                 elapsed_time = time.time() - start
                                 client.sendText(receiver, "%sdetik" % (elapsed_time))
                             elif 'spic' in text.lower():
